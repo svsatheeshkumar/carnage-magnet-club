@@ -1,0 +1,149 @@
+/* General styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #f4f4f4;
+}
+
+header {
+    background-color: #006400; /* Dark Green */
+    color: #FFD700; /* Yellow */
+    padding: 10px 0;
+}
+
+header .logo h1 {
+    margin-left: 20px;
+}
+
+nav ul {
+    list-style: none;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline-block;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: #FFD700; /* Yellow */
+    text-decoration: none;
+    font-weight: lighter;
+}
+
+nav ul li a:hover {
+    color: #fff;
+}
+
+main {
+    padding: 20px;
+}
+
+.welcome {
+    text-align: center;
+}
+
+.featured-clubs {
+    text-align: center;
+}
+
+.club-cards {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.club-card {
+    background-color: #fff;
+    padding: 15px;
+    width: 250px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    text-align: center;
+    border: 2px solid #006400; /* Dark Green border */
+}
+
+.club-card img {
+    width: 100%;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 5px;
+}
+
+.club-card h3 {
+    margin: 10px 0;
+    color: #006400; /* Dark Green */
+}
+
+.club-card a {
+    display: inline-block;
+    margin-top: 10px;
+    color: #006400; /* Dark Green */
+    text-decoration: none;
+}
+
+.club-card a:hover {
+    color: #FFD700; /* Yellow on hover */
+}
+
+footer {
+    background-color: #006400; /* Dark Green */
+    color: #FFD700; /* Yellow */
+    text-align: center;
+    padding: 10px 0;
+    margin-top: 30px;
+    font-size: 12px;
+}
+
+/* Event Highlights */
+.event-card {
+    background-color: #fff;
+    padding: 15px;
+    margin-bottom: 20px;
+    border-radius: 8px;
+    border: 2px solid #006400; /* Dark Green border */
+    text-align: center;
+}
+
+.event-card h3 {
+    color: #006400; /* Dark Green */
+}
+
+.event-card a {
+    color: #FFD700; /* Yellow */
+    text-decoration: none;
+}
+
+.event-card a:hover {
+    color: #fff;
+    background-color: #006400; /* Dark Green background on hover */
+}
+
+.club-image {
+    flex: 1;
+    padding: 10px;
+}
+.club-image img {
+    display: block;
+    width: 450px;
+    height: auto;
+}
+
+.logo-header {
+    font-size: 25px; 
+    padding-left: 20px; 
+    font-weight: bold; 
+    color: #fff;
+}
+
+.logo-header-small {
+    font-size: 15px; 
+    padding-left: 20px; 
+    font-weight: lighter; 
+    color: #e7d95f;
+}
